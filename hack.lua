@@ -1,8 +1,3 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
-
 local TowerTycoonHack = Instance.new("ScreenGui")
 local main = Instance.new("Frame")
 local frame = Instance.new("Frame")
@@ -17,8 +12,6 @@ local Frame = Instance.new("Frame")
 local UICorner_3 = Instance.new("UICorner")
 local TextButton_3 = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-
---Properties:
 
 TowerTycoonHack.Name = "TowerTycoonHack"
 TowerTycoonHack.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
@@ -114,8 +107,6 @@ TextButton_3.TextColor3 = Color3.fromRGB(255, 0, 0)
 TextButton_3.TextSize = 25.000
 
 UICorner_4.Parent = main
-
--- Scripts:
 
 local function UGSWGZ_fake_script() -- main.DraggableGUI 
 	local script = Instance.new('LocalScript', main)
